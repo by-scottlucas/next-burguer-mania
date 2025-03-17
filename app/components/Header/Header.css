@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.nav-container {
+    @apply bg-white;
+}
+
+.nav-content {
+    @apply max-w-screen-xl flex flex-wrap lg:text-start items-center justify-between mx-auto p-4 lg:px-0;
+}
+
+.brand-box {
+    @apply flex items-center space-x-3;
+}
+
+.burger-menu-button {
+    @apply inline-flex items-center text-4xl p-2 w-10 h-10 justify-center text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600;
+}
+
+.nav-items-box {
+    @apply mt-3 text-center lg:flex w-full lg:w-auto transition-all duration-300 ease-in-out;
+}
+
+.nav-list {
+    @apply font-medium flex flex-col p-4 md:p-0 lg:flex-row lg:space-x-8 md:mt-0 md:border-0 md:bg-white;
+}
+
+.nav-item {
+    @apply block py-3 lg:py-0 text-black text-lg font-semibold transition-colors duration-300;
+}
+
+.nav-item:hover {
+    color: #49130F;
+}
