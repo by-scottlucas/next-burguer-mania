@@ -22,8 +22,8 @@ export default function Header() {
     return (
         <nav className="nav-container">
             <div className="nav-content">
-                <a href="#" className="brand-box">
-                    <img src={logotipo} alt="Burguer Mania" className="h-8" />
+                <a href="#" className="nav-brand-box">
+                    <img src={logotipo} alt="Burguer Mania" className="nav-logo" />
                 </a>
 
                 <button
@@ -37,7 +37,7 @@ export default function Header() {
                     <i className="bi bi-list text-black"></i>
                 </button>
 
-                <div className={`${menuIsOpen ? "block" : "hidden"} nav-items-box`} id="navbar">
+                <div className={`nav-items-box ${menuIsOpen ? "open" : "close"}`} id="navbar">
                     <ul className="nav-list">
                         {navLinks.map((navItem, index) => (
                             <li key={index}>
