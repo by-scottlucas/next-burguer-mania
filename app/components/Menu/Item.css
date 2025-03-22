@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.card-menu {
+    @apply cursor-pointer flex flex-col items-center py-2 px-4 lg:py-8.5 lg:px-5 transition-all duration-300 ease-in-out transform shadow hover:shadow-md hover:scale-101 2xl:hover:shadow-lg rounded-md;
+}
+
+.visible {
+    @apply opacity-100 translate-y-0;
+}
+
+.invisible {
+    @apply opacity-0 translate-y-4;
+}
+
+.card-menu-image {
+    @apply mb-4 2xl:w-75;
+}
+
+.card-menu-title {
+    @apply text-[#49130F] text-xl font-black mb-2 md:text-2xl 2xl:text-3xl uppercase text-center 2xl:mb-5;
+}
+
+.card-menu-description {
+    @apply text-black line-clamp-2 text-justify md:text-base hidden md:block 2xl:text-2xl;
+}

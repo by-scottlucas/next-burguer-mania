@@ -8,6 +8,6 @@
     @apply flex flex-col gap-2.5 px-4 md:flex-row md:justify-center lg:gap-5;
 }
 
-.card-image {
+.card-category-image {
     @apply rounded-md md:rounded-lg transition-all ease-in-out duration-300 hover:scale-101 2xl:w-3xl;
 }

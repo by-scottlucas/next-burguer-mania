@@ -34,7 +34,7 @@ export default function Cards() {
                             }
                             loading='lazy'
                             alt="Mais Populares"
-                            className="card-image most-popular-card"
+                            className="card-category-image most-popular-card"
                         />
                     </a>
                 </div>
@@ -45,7 +45,7 @@ export default function Cards() {
                             src={cardImages.cheeseHeavy}
                             loading='lazy'
                             alt="Muito Queijo"
-                            className="card-image cheese-heavy-card"
+                            className="card-category-image cheese-heavy-card"
                         />
                     </a>
 
@@ -54,7 +54,7 @@ export default function Cards() {
                             src={cardImages.baconHeavy}
                             loading='lazy'
                             alt="Muito Bacon"
-                            className="card-image bacon-heavy-card"
+                            className="card-category-image bacon-heavy-card"
                         />
                     </a>
                 </div>

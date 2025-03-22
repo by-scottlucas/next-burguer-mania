@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+.menu-container {
+    @apply flex flex-col items-center my-10 px-5 py-0 2xl:my-18;
+}
+
+.menu-title {
+    @apply text-3xl font-bold uppercase mb-3 text-[#ED1C00] 2xl:text-4xl 2xl:mb-5;
+}
+
+.nav-menu {
+    @apply flex items-center justify-center gap-5 mb-7 2xl:mb-12;
+}
+
+.item-nav-menu {
+    @apply cursor-pointer text-xl md:text-xl 2xl:text-3xl;
+}
+
+.item-nav-active {
+    @apply font-bold border-b-2 border-[#ED1C00];
+}
+
+.items-menu {
+    @apply grid gap-5 transition-opacity duration-300 
+           grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 
+           px-5 lg:px-8 2xl:px-20;
+}
