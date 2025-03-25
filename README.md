@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next - Burguer Mania
 
-## Getting Started
+## 📌 Introdução  
 
-First, run the development server:
+O **Next - Burguer Mania** é uma aplicação **Single Page Application (SPA)** desenvolvida para a hamburgueria fictícia **Burguer Mania**. A aplicação apresenta uma interface intuitiva e responsiva, incluindo seções de cards com categorias, cardápio resumido, localização e contatos.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Como Rodar o Projeto  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para executar o projeto localmente, siga os passos abaixo:  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Clone o repositório**  
+   ```bash
+   git clone https://github.com/seu-usuario/next-burguer-mania.git
+   ```
+2. **Acesse o diretório do projeto**  
+   ```bash
+   cd next-burguer-mania
+   ```
+3. **Instale as dependências**  
+   ```bash
+   npm install
+   ```
+4. **Execute o projeto**  
+   ```bash
+   npm run dev
+   ```
+5. **Acesse a aplicação**  
+   Abra o navegador e vá para `http://localhost:3000`  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tecnologias Utilizadas  
 
-## Learn More
+O projeto foi desenvolvido utilizando as seguintes tecnologias e ferramentas:  
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** – Framework React para aplicações otimizadas  
+- **Tailwind CSS** – Estilização moderna e eficiente  
+- **Bootstrap Icons** – Ícones para interface gráfica  
+- **Leaflet.js** – Biblioteca para mapas interativos  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👨‍💻 Autor  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto foi desenvolvido por **Lucas Santos Silva**, Desenvolvedor Full Stack, graduado pela **Escola Técnica do Estado de São Paulo (ETEC)** nos cursos de **Informática (Suporte)** e **Informática para Internet**.  
 
-## Deploy on Vercel
+## 📜 Licença  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Este projeto está licenciado sob a [**Licença MIT**](./LICENSE).

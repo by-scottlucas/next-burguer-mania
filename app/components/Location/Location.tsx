@@ -24,7 +24,7 @@ export default function Location() {
     };
 
     return (
-        <section className='location-container'>
+        <section className='location-container' id='location'>
             <h2 className='location-container-title'>Localização</h2>
 
             <div className='location-container-content'>
