@@ -1,3 +1,5 @@
+# Next - Burguer Mania
+
 ## 📌 Introdução  
 
 O **Next - Burguer Mania** é uma aplicação **Single Page Application (SPA)** desenvolvida para a hamburgueria fictícia **Burguer Mania**. A aplicação apresenta uma interface intuitiva e responsiva, incluindo seções de cards com categorias, cardápio resumido, localização e contatos.  
