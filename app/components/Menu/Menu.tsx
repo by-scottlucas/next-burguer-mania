@@ -29,7 +29,7 @@ export default function Menu() {
     }
 
     return (
-        <section className='menu-container'>
+        <section className='menu-container' id='menu'>
             <h2 className='menu-title'>Cardápio</h2>
 
             <div className='nav-menu'>

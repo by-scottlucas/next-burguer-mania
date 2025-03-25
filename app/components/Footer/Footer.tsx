@@ -56,7 +56,7 @@ export default function Footer() {
                     </ul>
                 </div>
 
-                <div className='footer-card'>
+                <div className='footer-card' id='contact'>
                     <h2 className='footer-card-title'>
                         {sectionData.contact.title}
                     </h2>
