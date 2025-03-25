@@ -57,7 +57,7 @@ export default function LeafletMap({ coordinates, addressInfo }: LeafletMapProps
   }, [coordinates]);
 
   function handleOpenInGoogleMaps() {
-    const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=$${coordinates[0]},${coordinates[1]}`;
+    const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${coordinates[0]},${coordinates[1]}`;
     window.open(googleMapsUrl, '_blank');
   }
 
