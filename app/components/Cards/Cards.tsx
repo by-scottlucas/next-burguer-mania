@@ -27,10 +27,9 @@ export default function Cards() {
                 <div>
                     <a href="#">
                         <img
-                            src={
-                                isMobile ?
-                                    cardImages.mostPopularMobile :
-                                    cardImages.mostPopularDesktop
+                            src={isMobile ?
+                                cardImages.mostPopularMobile :
+                                cardImages.mostPopularDesktop
                             }
                             loading='lazy'
                             alt="Mais Populares"

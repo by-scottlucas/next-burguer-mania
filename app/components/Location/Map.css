@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.location-map-box {
+    @apply w-85 h-80 md:w-100 md:h-100 lg:w-125 2xl:w-175 2xl:h-125 rounded-md;
+}

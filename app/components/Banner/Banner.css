@@ -1,14 +1,11 @@
 @import "tailwindcss";
 
 .banner-container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    @apply py-0 px-5 my-4 md:my-12 lg:my-14 2xl:my-20;
+    @apply flex flex-col items-center py-0 px-5 my-4 md:my-12 lg:my-18 2xl:my-20;
 }
 
 .banner-image {
-    @apply md:w-xl lg:w-3xl 2xl:w-7xl;
+    @apply md:w-xl lg:w-3xl 2xl:w-6xl;
 }
 
 .group-btn {
@@ -16,24 +13,19 @@
 }
 
 .banner-button {
-    cursor: pointer;
     border-radius: 3px;
-    @apply p-3 px-6 text-sm font-medium md:py-5 md:px-13 md:text-lg lg:py-4.5 lg:px-17 2xl:py-8.5 2xl:px-30 2xl:text-2xl transition-all duration-300 ease-in-out;
+    @apply cursor-pointer p-3 px-6 text-sm font-medium md:py-5 md:px-13 md:text-xl lg:py-4.5 lg:px-17 2xl:py-8 2xl:px-25 2xl:text-2xl transition-all duration-300 ease-in-out;
 }
 
 .order-button {
-    color: #FFF;
-    background: #ED1C00;
+    @apply text-white bg-[#D01800];
 }
 
 .menu-button {
-    color: #ED1C00;
-    background: transparent;
-    border: 1px solid #ED1C00;
+    @apply text-[#D01800] bg-transparent border-2 border-[#D01800];
 }
 
 .order-button:hover,
 .menu-button:hover {
-    color: #FFF;
-    background-color: #cc1901;
+    @apply text-white bg-[#b31905];
 }

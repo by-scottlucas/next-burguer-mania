@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+.footer-container {
+    @apply mt-20;
+}
+
+.footer-middle-container {
+    @apply flex flex-col gap-8 md:flex-row md:justify-between md:px-28;
+}
+
+.footer-card {
+    @apply flex flex-col text-center md:text-start;
+}
+
+.footer-card-title {
+    @apply text-lg mb-2 font-bold 2xl:text-3xl 2xl:mb-6;
+}
+
+.footer-card-list {
+    @apply flex flex-col gap-1 2xl:gap-4;
+}
+
+.footer-card-item {
+    @apply 2xl:text-2xl hover:underline;
+}
+
+.footer-bottom-container {
+    @apply mt-5 py-4 2xl:mt-10;
+}
+
+.footer-bottom-text {
+    @apply text-center 2xl:text-2xl;
+}

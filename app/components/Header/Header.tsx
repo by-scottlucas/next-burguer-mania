@@ -32,6 +32,7 @@ export default function Header() {
                     data-collapse-toggle="navbar"
                     className="burger-menu-button"
                     aria-controls="navbar"
+                    aria-label='Menu Button'
                     aria-expanded={menuIsOpen ? "true" : "false"}
                 >
                     <i className="bi bi-list text-black"></i>

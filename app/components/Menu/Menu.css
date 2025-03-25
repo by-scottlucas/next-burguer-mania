@@ -5,7 +5,7 @@
 }
 
 .menu-title {
-    @apply text-3xl font-bold uppercase mb-3 text-[#ED1C00] 2xl:text-4xl 2xl:mb-5;
+    @apply text-3xl font-black uppercase mb-3 text-[#D01800] 2xl:text-4xl 2xl:mb-5;
 }
 
 .nav-menu {
