@@ -8,9 +8,9 @@ export default function Header() {
     const logotipo = "/visual_identity/burguer-mania-logo.png";
     const navLinks = [
         { title: "Home", link: "#" },
-        { title: "Categorias", link: "#category" },
+        { title: "Categorias", link: "#categories" },
         { title: "Cardápio", link: "#menu" },
-        { title: "Localização", link: "#localization" },
+        { title: "Localização", link: "#location" },
         { title: "Contato", link: "#contact" },
     ];
     const [menuIsOpen, setMenuIsOpen] = useState(false);

@@ -22,7 +22,7 @@ export default function Cards() {
     };
 
     return (
-        <section className="cards-container">
+        <section className="cards-container" id='categories'>
             <div className="cards-content">
                 <div>
                     <a href="#">
