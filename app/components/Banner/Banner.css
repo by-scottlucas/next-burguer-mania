@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .banner-container {
-    @apply flex flex-col items-center py-0 px-5 my-4 md:my-12 lg:my-18 2xl:my-20;
+    @apply flex flex-col items-center py-0 px-5 my-4 md:my-12 lg:my-12 2xl:my-20;
 }
 
 .banner-image {
